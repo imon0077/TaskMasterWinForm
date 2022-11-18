@@ -1,0 +1,16 @@
+G:\Practice\TaskMasterApp\TaskMasterApp\bin\Debug\TaskMasterApp.exe.config
+G:\Practice\TaskMasterApp\TaskMasterApp\bin\Debug\TaskMasterApp.exe
+G:\Practice\TaskMasterApp\TaskMasterApp\bin\Debug\TaskMasterApp.pdb
+G:\Practice\TaskMasterApp\TaskMasterApp\obj\Debug\TaskMasterApp.csprojResolveAssemblyReference.cache
+G:\Practice\TaskMasterApp\TaskMasterApp\obj\Debug\TaskMasterApp.Form1.resources
+G:\Practice\TaskMasterApp\TaskMasterApp\obj\Debug\TaskMasterApp.Properties.Resources.resources
+G:\Practice\TaskMasterApp\TaskMasterApp\obj\Debug\TaskMasterApp.csproj.GenerateResource.Cache
+G:\Practice\TaskMasterApp\TaskMasterApp\obj\Debug\TaskMasterApp.exe
+G:\Practice\TaskMasterApp\TaskMasterApp\obj\Debug\TaskMasterApp.pdb
+G:\Practice\TaskMasterApp\TaskMasterApp\bin\Debug\EntityFramework.dll
+G:\Practice\TaskMasterApp\TaskMasterApp\bin\Debug\EntityFramework.SqlServer.dll
+G:\Practice\TaskMasterApp\TaskMasterApp\bin\Debug\EntityFramework.xml
+G:\Practice\TaskMasterApp\TaskMasterApp\bin\Debug\EntityFramework.SqlServer.xml
+G:\Practice\TaskMasterApp\TaskMasterApp\obj\Debug\TaskMasterApp.Migrations.AddStatusToDB.resources
+G:\Practice\TaskMasterApp\TaskMasterApp\obj\Debug\TaskMasterApp.Migrations.AddStatusSeedDataToDB.resources
+G:\Practice\TaskMasterApp\TaskMasterApp\obj\Debug\TaskMasterApp.Migrations.AddTaskToDB.resources
