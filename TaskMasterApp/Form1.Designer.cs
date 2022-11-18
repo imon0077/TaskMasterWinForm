@@ -30,16 +30,16 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtTask = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.cboStaus = new System.Windows.Forms.ComboBox();
-            this.cmdCreateTask = new System.Windows.Forms.Button();
-            this.cmdUpdateTask = new System.Windows.Forms.Button();
-            this.cmdDeleteTask = new System.Windows.Forms.Button();
-            this.cmdCancel = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cmdCancel = new System.Windows.Forms.Button();
+            this.cmdDeleteTask = new System.Windows.Forms.Button();
+            this.cmdUpdateTask = new System.Windows.Forms.Button();
+            this.cmdCreateTask = new System.Windows.Forms.Button();
+            this.cboStaus = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txtTask = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -78,74 +78,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Task";
             // 
-            // txtTask
+            // label3
             // 
-            this.txtTask.Location = new System.Drawing.Point(116, 19);
-            this.txtTask.Name = "txtTask";
-            this.txtTask.Size = new System.Drawing.Size(188, 20);
-            this.txtTask.TabIndex = 0;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(436, 19);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(132, 20);
-            this.dateTimePicker1.TabIndex = 1;
-            // 
-            // cboStaus
-            // 
-            this.cboStaus.FormattingEnabled = true;
-            this.cboStaus.Location = new System.Drawing.Point(116, 46);
-            this.cboStaus.Name = "cboStaus";
-            this.cboStaus.Size = new System.Drawing.Size(110, 21);
-            this.cboStaus.TabIndex = 2;
-            this.cboStaus.Text = "Please Select";
-            // 
-            // cmdCreateTask
-            // 
-            this.cmdCreateTask.Location = new System.Drawing.Point(232, 46);
-            this.cmdCreateTask.Name = "cmdCreateTask";
-            this.cmdCreateTask.Size = new System.Drawing.Size(72, 23);
-            this.cmdCreateTask.TabIndex = 3;
-            this.cmdCreateTask.Text = "Create";
-            this.cmdCreateTask.UseVisualStyleBackColor = true;
-            // 
-            // cmdUpdateTask
-            // 
-            this.cmdUpdateTask.Location = new System.Drawing.Point(310, 46);
-            this.cmdUpdateTask.Name = "cmdUpdateTask";
-            this.cmdUpdateTask.Size = new System.Drawing.Size(75, 23);
-            this.cmdUpdateTask.TabIndex = 4;
-            this.cmdUpdateTask.Text = "Update";
-            this.cmdUpdateTask.UseVisualStyleBackColor = true;
-            // 
-            // cmdDeleteTask
-            // 
-            this.cmdDeleteTask.Location = new System.Drawing.Point(391, 46);
-            this.cmdDeleteTask.Name = "cmdDeleteTask";
-            this.cmdDeleteTask.Size = new System.Drawing.Size(75, 23);
-            this.cmdDeleteTask.TabIndex = 5;
-            this.cmdDeleteTask.Text = "Delete";
-            this.cmdDeleteTask.UseVisualStyleBackColor = true;
-            // 
-            // cmdCancel
-            // 
-            this.cmdCancel.Location = new System.Drawing.Point(310, 75);
-            this.cmdCancel.Name = "cmdCancel";
-            this.cmdCancel.Size = new System.Drawing.Size(75, 23);
-            this.cmdCancel.TabIndex = 6;
-            this.cmdCancel.Text = "Cancel";
-            this.cmdCancel.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Task:";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(374, 22);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Due Date:";
             // 
             // label2
             // 
@@ -156,14 +96,78 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "Status:";
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(374, 22);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Due Date:";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(7, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(34, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Task:";
+            // 
+            // cmdCancel
+            // 
+            this.cmdCancel.Location = new System.Drawing.Point(310, 75);
+            this.cmdCancel.Name = "cmdCancel";
+            this.cmdCancel.Size = new System.Drawing.Size(75, 23);
+            this.cmdCancel.TabIndex = 6;
+            this.cmdCancel.Text = "Cancel";
+            this.cmdCancel.UseVisualStyleBackColor = true;
+            this.cmdCancel.Click += new System.EventHandler(this.cmdCancel_Click);
+            // 
+            // cmdDeleteTask
+            // 
+            this.cmdDeleteTask.Location = new System.Drawing.Point(391, 46);
+            this.cmdDeleteTask.Name = "cmdDeleteTask";
+            this.cmdDeleteTask.Size = new System.Drawing.Size(75, 23);
+            this.cmdDeleteTask.TabIndex = 5;
+            this.cmdDeleteTask.Text = "Delete";
+            this.cmdDeleteTask.UseVisualStyleBackColor = true;
+            this.cmdDeleteTask.Click += new System.EventHandler(this.cmdDeleteTask_Click);
+            // 
+            // cmdUpdateTask
+            // 
+            this.cmdUpdateTask.Location = new System.Drawing.Point(310, 46);
+            this.cmdUpdateTask.Name = "cmdUpdateTask";
+            this.cmdUpdateTask.Size = new System.Drawing.Size(75, 23);
+            this.cmdUpdateTask.TabIndex = 4;
+            this.cmdUpdateTask.Text = "Update";
+            this.cmdUpdateTask.UseVisualStyleBackColor = true;
+            this.cmdUpdateTask.Click += new System.EventHandler(this.cmdUpdateTask_Click);
+            // 
+            // cmdCreateTask
+            // 
+            this.cmdCreateTask.Location = new System.Drawing.Point(232, 46);
+            this.cmdCreateTask.Name = "cmdCreateTask";
+            this.cmdCreateTask.Size = new System.Drawing.Size(72, 23);
+            this.cmdCreateTask.TabIndex = 3;
+            this.cmdCreateTask.Text = "Create";
+            this.cmdCreateTask.UseVisualStyleBackColor = true;
+            this.cmdCreateTask.Click += new System.EventHandler(this.cmdCreateTask_Click);
+            // 
+            // cboStaus
+            // 
+            this.cboStaus.FormattingEnabled = true;
+            this.cboStaus.Location = new System.Drawing.Point(116, 46);
+            this.cboStaus.Name = "cboStaus";
+            this.cboStaus.Size = new System.Drawing.Size(110, 21);
+            this.cboStaus.TabIndex = 2;
+            this.cboStaus.Text = "Please Select";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(436, 19);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(132, 20);
+            this.dateTimePicker1.TabIndex = 1;
+            // 
+            // txtTask
+            // 
+            this.txtTask.Location = new System.Drawing.Point(116, 19);
+            this.txtTask.Name = "txtTask";
+            this.txtTask.Size = new System.Drawing.Size(188, 20);
+            this.txtTask.TabIndex = 0;
             // 
             // Form1
             // 
